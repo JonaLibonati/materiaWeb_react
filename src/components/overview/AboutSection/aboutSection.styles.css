@@ -1,0 +1,172 @@
+
+.about {
+	position: relative;
+	margin-top: 10vh;
+	height: fit-content;
+	z-index: 50;
+	overflow: hidden;
+	transition: opacity 1s;
+}
+
+.about__cont {
+	position: relative;
+	min-width: min-content;
+	max-width: 440px;
+	height: 100%;
+	padding-right: 30px;
+	padding-left: 30px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+}
+
+.about__slogan {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.about__p {
+	display: inline;
+	font-family: centGothicLigth;
+	font-size: 20px;
+	line-height: 35px;
+	letter-spacing: 4px;
+	color: #333333;
+}
+
+.about__h2 {
+	display: inline;
+	font-size: 30px;
+	line-height: 35px;
+	color: #333333;
+}
+
+.about__h3 {
+	display: inline;
+	font-size: 30px;
+	line-height: 35px;
+	color: #333333;
+}
+
+.about__h3--edi {
+	display: block;
+	font-family: centGothicLigth;
+	font-size: 15px;
+	line-height: 35px;
+	letter-spacing: 4px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	color: #333333;
+}
+
+.about__barone {
+	margin-top: 20px;
+	line-height: 0;
+}
+
+.about__baroneImg {
+	width: 100%;
+}
+
+.about__see {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: fit-content;
+	z-index: 5;
+}
+
+.about__button {
+	position: relative;
+	display: inline-block;
+	font-family: centGothicLigth;
+	font-size: 15px;
+	line-height: 15px;
+	letter-spacing: 4px;
+	line-height: 1;
+	color: #333333;
+	text-decoration: none;
+}
+
+.about__button:hover {
+	text-decoration: underline;
+}
+
+.about__chevron {
+	display: inline;
+	color: #333333;
+	height: 10px;
+}
+
+/*********** Viewports *******************/
+
+/*Desktop*/
+
+@media only screen and (min-width: 1300px) {
+
+	.about__cont {
+		max-width: 1300px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.about__slogan {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+}
+
+/*Desktop an tablet Landspace*/
+
+@media only screen and (min-width: 950px) and (max-width: 1299px) {
+
+	.about__cont {
+		max-width: 1000px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.about__slogan {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+}
+
+/*Tablets portrait*/
+
+@media only screen and (orientation: portrait) and (min-width: 600px) and (max-width: 999px) {
+
+	.about__cont {
+		max-width: 650px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.about__slogan {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+}
+
+@media only screen and (orientation: portrait) and (max-width: 420px) {
+
+	.about__cont {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.about__slogan {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

@@ -1,0 +1,42 @@
+.pj {
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	z-index:51;
+	transition: opacity 1s;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+@media only screen and (min-width: 1300px) {
+    .pj {
+		position: relative;
+		padding-left: 45px;
+		padding-right: 45px;
+		max-width: 1700px;
+	}
+}
+
+/*Desktop an tablet Landspace*/
+
+@media only screen and (min-width: 950px) and (max-width: 1299px) {
+    .pj {
+		max-width: 1200px;
+		padding-left: 45px;
+		padding-right: 45px;
+	}
+}
+
+/*Tablets portrait*/
+
+@media only screen and (orientation: portrait) and (min-width: 600px) and (max-width: 949px){
+    .pj {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}

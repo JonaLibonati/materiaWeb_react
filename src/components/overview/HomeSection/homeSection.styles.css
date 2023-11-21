@@ -1,0 +1,78 @@
+
+.home {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	height: 100vh;
+	z-index: 50;
+}
+
+.home__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.home__logo {
+	position: relative;
+	width: 250px;
+	height: fit-content;
+}
+
+.home__circles {
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+
+.home__title {
+	position: relative;
+	width: 100%;
+	font-size: 60px;
+	margin: 0;
+	text-align: center;
+	color: #333333;
+}
+
+.home__title--sec {
+	position: relative;
+	width: 100%;
+	font-family: centGothicLigth;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+.home__socMedia {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 45px;
+}
+
+.home__ig,
+.home__fb,
+.home__wpp,
+.home__mail {
+	position: relative;
+	flex-basis: 30px;
+	height: 30px;
+	margin: 6px 12px;
+	line-height: 0;
+	color: #333333;
+}
+
+.home__igIcon,
+.home__fbIcon,
+.home__wppIcon,
+.home__mailIcon {
+	width: 100%;
+	height: 100%;
+}
+
+.home__mail {
+	cursor: pointer;
+}

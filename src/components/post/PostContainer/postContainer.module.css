@@ -1,0 +1,45 @@
+
+
+.post {
+    padding-top: 100px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.post__back {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 225px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 550px) {
+    .post__back {
+        width: 460px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .post__back {
+        width: 695px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .post__back {
+        width: 930px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .post__back {
+        width: 1400px;
+    }
+}
+

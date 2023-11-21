@@ -1,0 +1,187 @@
+@font-face{
+	font-family: "centGothicBold";
+	src: url("./assets/fonts/centGothicBold.otf") format("truetype");
+}
+
+@font-face{
+	font-family: "centGothicLigth";
+	src: url("./assets/fonts/centGothicLight.otf") format("truetype");
+}
+
+html {
+	line-height: 1;
+	scroll-behavior: smooth;
+}
+
+body {
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, b {
+	font-family: centGothicBold;
+}
+
+p {
+    font-family: centGothicLigth;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}
+
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.letter-spacing-0 {
+	letter-spacing: 0;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fcfcfc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.t-bold {
+	font-family: centGothicBold;
+}
+
+.t-light {
+	font-family: centGothicLigth;
+}
+
+/*********** Viewports *******************/
+
+/*Desktop*/
+
+@media only screen and (min-width: 1300px) {
+	.noShowLarge {
+		display: none;
+	}
+}
+
+/*Desktop an tablet Landspace*/
+
+@media only screen and (min-width: 950px) and (max-width: 1299px) {
+	.noShowMedium {
+		display: none;
+	}
+}
+
+/*Tablets portrait*/
+
+@media only screen and (orientation: portrait) and (min-width: 600px) and (max-width: 999px){
+	.noShowTablet {
+		display: none;
+	}
+}
+
+@media only screen and (orientation: portrait) and (max-width: 599px) {
+	.noShowMobile {
+		display: none;
+	}
+}
+
+@media only screen and (orientation: portrait) and (max-width: 320px) {
+	.noShowTiny {
+		display: none;
+	}
+}
+
+/* Javascrip styles and animations*/
+
+.overFlowHidden {
+	overflow: hidden;
+}
+
+.showOpa100 {
+	opacity: 1;
+}
+
+.ph.showOpa100 {
+	opacity: 1;
+}
+
+.showOpa90 {
+	opacity: 0.9;
+}
+
+.showOpa0 {
+	opacity: 0;
+}
+
+.height0 {
+	height: 0;
+	margin: 0;
+}
+
+.height100vh {
+	height: 100vh;
+}
+
+.heightCurtain {
+	height: 180px;
+}
+
+.padding0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+article.pj__box .padding0 {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.displayNone {
+	display: none;
+}
+
+.zIndex70 {
+	z-index: 70;
+}
+
+.ph.zIndex70 {
+	z-index: 70;
+}
+
+.fontSize0 {
+	font-size: 0;
+}
+
+.pj__img.object-position-left {
+	object-position: left;
+}
+
+.pj__img.object-position-center {
+	object-position: center;
+}
+
+.pj__img.object-position-right {
+	object-position: right;
+}
+
+.nowrap {
+	white-space: nowrap;
+}

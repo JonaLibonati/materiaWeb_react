@@ -1,0 +1,32 @@
+
+import { exPenJujuy } from './exPenJujuy';
+import { comRivPark } from './comRivPark';
+import { olymplicVill } from './olymplicVill';
+import { plaFerCab } from './plaFerCab';
+import { ambientalSur } from './ambientalSur';
+import { losReartesBoul } from './losReartesBoul';
+import { footballMuseum } from './footballMuseum';
+import { luroTerminal } from './luroTerminal';
+import { lacarCoast } from './lacarCoast';
+import { jockeyClub } from './jockeyClub';
+import { centenPav } from './centenPav';
+import { uccPolo } from './uccPolo';
+import { acindar } from './acindar';
+import { ferrocult } from './ferrocult';
+import { chanar } from './chanar';
+import { berazComplex } from './berazcomplex';
+import { parqPatri } from './parqPatri';
+import { educBuilding } from './educBuilding';
+import { vlHouse } from './vlHouse';
+import { svHouse } from './svHouse';
+import { prsBuilding } from './prsBuilding';
+import { ldBuilding } from './ldBuilding';
+import { alsinaBuilding } from './alsinaBuilding';
+import { estacionEco } from './estacionEco';
+import { plaFerCol } from './plaFerCol';
+import { argPav } from './argPav';
+import { costaSalguero } from './costaSalguero';
+import { marqPav } from './marqPav';
+import { myjHouse } from './myjHouse';
+
+export const projectsData = [exPenJujuy, comRivPark, olymplicVill, plaFerCab, ambientalSur, losReartesBoul, footballMuseum, luroTerminal, lacarCoast, jockeyClub, centenPav, uccPolo, acindar, ferrocult, chanar, berazComplex, parqPatri, educBuilding, vlHouse, svHouse, prsBuilding, ldBuilding, alsinaBuilding, estacionEco, plaFerCol, argPav, costaSalguero, marqPav, myjHouse];

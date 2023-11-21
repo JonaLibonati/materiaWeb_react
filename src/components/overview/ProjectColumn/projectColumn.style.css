@@ -1,0 +1,30 @@
+
+.pj__flexContainer {
+	position: relative;
+	flex-basis: 100%;
+	max-width: 380px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: flex-start;
+	padding-top: 10px;
+}
+
+@media only screen and (min-width: 1300px) {
+	.pj__flexContainer {
+		max-width: 1610px;
+		flex-basis: 33.33333333%;
+	}
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1299px) {
+	.pj__flexContainer {
+		max-width: none;
+	}
+}
+
+@media only screen and (orientation: portrait) and (min-width: 600px) and (max-width: 949px){
+	.pj__flexContainer {
+		max-width: 550px;
+	}
+}

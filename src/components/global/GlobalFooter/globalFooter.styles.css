@@ -1,0 +1,190 @@
+
+.footer__list {
+	position: relative;
+	width: 100%;
+	background-color: #000;
+	z-index: 50;
+}
+
+.footer__item {
+	position: relative;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.footer__item--first {
+	padding-top: 40px;
+}
+
+.footer__title {
+	position: relative;
+	font-size: 36px;
+	color: #fff;
+}
+
+.footer__title--arq {
+	font-family: centGothicLigth;
+	font-size: 17px;
+	letter-spacing: 5px;
+}
+
+.footer__h2 {
+	position: relative;
+	font-family: centGothicLigth;
+	font-size: 25px;
+	color: #fff;
+}
+
+.footer__p {
+	position: relative;
+	font-family: centGothicLigth;
+	font-size: 12px;
+	color: #fff;
+}
+
+.footer__h4 {
+	position: relative;
+	font-family: centGothicLigth;
+	font-size: 12px;
+	text-decoration: solid;
+	color: #888888;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/* unvisited link */
+.footer__link:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* visited link */
+.footer__link:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* mouse over link */
+.footer__link:hover {
+	text-decoration: none;
+}
+
+/* selected link */
+.footer__link:active {
+	text-decoration: none;
+}
+
+.footer__link--jona:hover {
+	text-decoration: underline;
+}
+
+.footer__socMedia {
+	position: relative;
+	display: flex;
+	background-color: #000;
+	justify-content: center;
+	width: 100%;
+	padding-top: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
+	z-index: 50;
+}
+
+.footer__ig,
+.footer__fb,
+.footer__wpp,
+.footer__mail {
+	position: relative;
+	flex-basis: 50px;
+	height: 25px;
+	margin: 6px 12px;
+	line-height: 0;
+	color: #fff;
+}
+
+.footer__igIcon,
+.footer__fbIcon,
+.footer__wppIcon,
+.footer__mailIcon {
+	width: 100%;
+	height: 100%;
+}
+
+.footer__mail {
+	cursor: pointer;
+}
+
+/*********** Viewports *******************/
+
+/*Desktop*/
+
+@media only screen and (min-width: 1300px) {
+
+	.footer__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.footer__menu {
+		display: flex;
+	}
+
+	.footer__item--second,
+	.footer__item--third,
+	.footer__item--fourth,
+	.footer__item--fiveth {
+		flex-basis: fit-content;
+		width: fit-content;
+	}
+
+	.footer__item--second,
+	.footer__item--third,
+	.footer__item--fourth {
+		margin-right: 40px;
+	}
+
+	.footer__item--first,
+	.footer__item--sixth,
+	.footer__item--eighth,
+	.footer__item--ninth {
+		flex-basis: 100%;
+	}
+}
+
+/*Desktop an tablet Landspace*/
+
+@media only screen and (min-width: 950px) and (max-width: 1299px) {
+
+	.footer__list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		height: 310px;
+	}
+
+	.footer__menu {
+		display: flex;
+	}
+
+	.footer__item--second,
+	.footer__item--third,
+	.footer__item--fourth,
+	.footer__item--fiveth {
+		flex-basis: fit-content;
+		width: fit-content;
+	}
+
+	.footer__item--second,
+	.footer__item--third,
+	.footer__item--fourth {
+		margin-right: 40px;
+	}
+
+	.footer__item--first,
+	.footer__item--sixth,
+	.footer__item--eighth,
+	.footer__item--ninth {
+		flex-basis: 100%;
+	}
+}

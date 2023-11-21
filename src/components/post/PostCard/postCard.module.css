@@ -1,0 +1,51 @@
+
+.post__img {
+    position: relative;
+    flex-basis: 225px;
+    max-width: 225px;
+    width: 225px;
+    height: 300px;
+    background-size: contain;
+}
+
+.post__link {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+}
+
+.post__download {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.post__downCircle {
+    position: absolute;
+    background-color: #e4e4e4;
+    height: 36px;
+    width: 36px;
+    padding: 9px;
+    border-radius: 18px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.post__downIcon {
+    position: absolute;
+    color: #2B2B2B;
+    height: 18px;
+    width: 18px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
