@@ -1,0 +1,102 @@
+.book {
+	position: relative;
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+	z-index: 51;
+	right: 0;
+	left: 0;
+	margin: 0 30px;
+	padding: 50px 0;
+    background-color: #ECECEC;
+}
+
+.book__container {
+	flex-basis: 100%;
+    margin: auto;
+}
+
+.book__img {
+    max-height: 600px;
+}
+
+.book__see {
+	position: relative;
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: fit-content;
+	padding-top: 15px;
+	z-index: 5;
+}
+
+.book__button {
+	position: relative;
+	display: inline-block;
+	font-family: centGothicLigth;
+	font-size: 15px;
+	line-height: 15px;
+	letter-spacing: 4px;
+	line-height: 1;
+	color: #333333;
+	text-decoration: none;
+}
+
+.book__button:hover {
+	text-decoration: underline;
+}
+
+.book__chevron {
+	display: inline;
+	color: #333333;
+	height: 10px;
+}
+
+@media only screen and (min-width: 1300px) {
+    .book {
+		position: relative;
+		margin: 0;
+		/* padding-left: 45px;
+		padding-right: 45px; */
+		/* max-width: 1700px; */
+	}
+
+	.book__see {
+		padding-top: 10px;
+	}
+}
+
+/*Desktop an tablet Landspace*/
+
+@media only screen and (min-width: 950px) and (max-width: 1299px) {
+    .book {
+		margin: 0;
+		/* max-width: 1200px; */
+		/* padding-left: 45px;
+		padding-right: 45px; */
+	}
+
+    .book__img {
+        height: 600px;
+    }
+
+	.book__see {
+		padding-top: 10px;
+	}
+}
+
+/*Tablets portrait*/
+
+@media only screen and (min-width: 600px) and (max-width: 949px){
+    .book {
+		margin: 0;
+		/* padding-left: 50px;
+		padding-right: 50px; */
+	}
+
+	.book__see {
+		padding-top: 10px;
+	}
+}

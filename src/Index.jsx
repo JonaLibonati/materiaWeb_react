@@ -8,12 +8,13 @@ import { ProjectSection } from './components/overview/ProjectSection/ProjectSect
 import { ContactSection } from './components/overview/ContactSection/ContactSection';
 import { GlobalFooter } from './components/global/GlobalFooter/GlobalFooter';
 import { FirstRender } from './contexts/FirstRender';
+import { BookSection } from "./components/overview/BookSection/BookSection";
 
 export const Index = () => {
 
     const [firstRender, setFirstRender] = useState(true);
     const value = useMemo(
-        () => ({ firstRender, setFirstRender }), 
+        () => ({ firstRender, setFirstRender }),
         [firstRender]
     );
 
@@ -32,6 +33,7 @@ export const Index = () => {
             <GlobalNav />
             <main>
                 <HomeSection />
+                <BookSection />
                 <AboutSection />
                 <PostSection />
                 <ProjectSection />
