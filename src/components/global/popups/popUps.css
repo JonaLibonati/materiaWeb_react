@@ -1,0 +1,47 @@
+.popup__success {
+    background-color: #22c55e;
+}
+
+.popup__error {
+    background-color: #ef4444;
+}
+
+.popup__model {
+    position: sticky;
+    top: 130px;
+    width: 100%;
+    z-index: 9999;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.popup__model div {
+    padding: 10px;
+    margin: auto;
+    min-height: 60px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup__close {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.popup__model div button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.popup__model div p {
+    font-size: 22px;
+}

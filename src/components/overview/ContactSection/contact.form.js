@@ -1,5 +1,5 @@
 
-export const submit = ( e, contact ) => {
+export const submit = ( e, contact, usePopUp, setIsLoading ) => {
 
     const { fname, lname, eMail, subject, message } = contact;
 
@@ -11,16 +11,18 @@ export const submit = ( e, contact ) => {
         subject == null || subject == undefined || subject.split(" ").join("") == "" ||
         message == null || message == undefined || message.split(" ").join("") == "" ){
 
-        alert("Verifique que todos los campos se hayan completado.");
+        usePopUp("Verifique que todos los campos se hayan completado.", 'error');
 
     } else {
-        sendContactMail({ ...contact });
+        sendContactMail({ ...contact }, usePopUp, setIsLoading);
     }
 };
 
-const sendContactMail = ( contact )=>{
+const sendContactMail = ( contact, usePopUp, setIsLoading )=>{
 
     const { fname, lname, eMail, subject, message, setFname, setLname, setEmail, setSubject, setMessage } = contact;
+
+    setIsLoading(true);
 
     fetch("https://formsubmit.co/ajax/ba8e7ae84c4c31236033618535691782", {
         method: "POST",
@@ -45,10 +47,12 @@ const sendContactMail = ( contact )=>{
             setSubject('');
             setMessage('');
 
-            alert("El mensaje se ha enviado correctamente")
+            usePopUp("El mensaje se ha enviado correctamente", "success")
+            setIsLoading(false);
         })
         .catch(error => {
             console.log(error);
-            alert("No se pudo enviar el mensaje, reenvie nuevamente el mensaje.")
+            usePopUp("No se pudo enviar el mensaje, reenvie nuevamente el mensaje.", "error");
+            setIsLoading(false);
         });
 }

@@ -9,6 +9,8 @@ import { ContactSection } from './components/overview/ContactSection/ContactSect
 import { GlobalFooter } from './components/global/GlobalFooter/GlobalFooter';
 import { FirstRender } from './contexts/FirstRender';
 import { BookSection } from "./components/overview/BookSection/BookSection";
+import { PopUpProvider } from './contexts/PopUpContext';
+
 
 export const Index = () => {
 
@@ -20,7 +22,7 @@ export const Index = () => {
 
     useEffect(() => {
 
-        const hash = window.location.hash ;
+        const hash = window.location.hash;
 
         if (hash.includes('#')) {
             window.location.href = hash;
@@ -32,12 +34,14 @@ export const Index = () => {
         <FirstRender.Provider value={value}>
             <GlobalNav />
             <main>
-                <HomeSection />
-                <BookSection />
-                <AboutSection />
-                <PostSection />
-                <ProjectSection />
-                <ContactSection />
+                <PopUpProvider>
+                    <HomeSection />
+                    <BookSection />
+                    <AboutSection />
+                    <PostSection />
+                    <ProjectSection />
+                    <ContactSection />
+                </PopUpProvider>
             </main>
             <GlobalFooter />
         </FirstRender.Provider>
