@@ -3,6 +3,7 @@ import { SvgIcon } from '../../SvgIcon/SvgIcon.jsx';
 import './postSection.styles.css'
 
 export const PostSection = () => {
+
     return (
         <>
             <section className="post" id='post'>
