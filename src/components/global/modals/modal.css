@@ -1,0 +1,92 @@
+.modal__book {
+  background-color: #fff;
+}
+
+.modal__model {
+  position: fixed;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.modal__model > div {
+  max-width: 800px;
+  width: 100%;
+  padding-bottom: 40px;
+  max-height: 90vh;
+  overflow-y: scroll;
+  color: #333333;
+  display: grid;
+  align-items: center;
+  box-shadow: 10px 10px 25px -6px rgba(51, 51, 51, 0.75);
+}
+
+.modal__close {
+  width: 30px;
+  height: 30px;
+  color: #333333;
+}
+
+.modal__model div button {
+  padding: 15px;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.modal__p {
+  position: relative;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: left;
+  font-family: centGothicLigth;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  color: #333333;
+}
+
+.modal__h {
+  position: relative;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: left;
+  font-family: centGothicBold;
+  font-size: 36px;
+  line-height: 35px;
+  letter-spacing: 4px;
+  color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal__p {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 3px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .modal__p {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 3px;
+  }
+
+}

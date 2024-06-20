@@ -1,0 +1,103 @@
+.book {
+  z-index: 51;
+  background-color: #ececec;
+  position: relative;
+}
+
+.book__container {
+  position: relative;
+	padding-top: 45px;
+  flex-basis: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.book__img {
+  overflow: hidden;
+  background-image: url("../../../assets/images/competencia_presentacion_libro.jpg");
+  height: 600px;
+  width: 100%;
+  background-size: 1500px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.book__ctas {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+.book__cta {
+  font-family: centGothicLigth;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #333333;
+  display: flex;
+
+  align-items: center;
+  white-space: nowrap;
+}
+
+.book__cta:hover {
+  text-decoration: underline;
+}
+
+.book__cta:nth-child(1) {
+  padding-left: 33px;
+}
+
+.cta__chevron {
+  height: 20px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 1921px) {
+    .book__img {
+		background-size: 1860px;
+	}
+}
+
+@media only screen and (max-width: 1399px) {
+    .book__img {
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+  .book__img {
+    background-size: cover;
+    height: 440px;
+  }
+
+  .book__ctas {
+    max-width: 320px;
+    margin: auto;
+    padding-bottom: 16px;
+  }
+
+  .book__cta {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 7px 20px;
+  }
+
+  .cta__chevron {
+    height: 16px;
+    margin-top: 0;
+  }
+
+  .book__cta:nth-child(1) {
+    padding-left: 20px;
+  }
+}

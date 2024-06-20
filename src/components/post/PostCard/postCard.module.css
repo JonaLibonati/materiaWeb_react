@@ -26,7 +26,8 @@
 
 .post__downCircle {
     position: absolute;
-    background-color: #e4e4e4;
+    /* background-color: #e4e4e4; */
+    background-color: #4ade80;
     height: 36px;
     width: 36px;
     padding: 9px;

@@ -1,0 +1,183 @@
+.modal__model .order__modal {
+	max-width: 1000px;
+}
+
+.order {
+	position: relative;
+	height: fit-content;
+	z-index: 50;
+	overflow: hidden;
+	transition: opacity 1s;
+	background-color: #fff;
+}
+
+.order__cont {
+	position: relative;
+	min-width: min-content;
+	height: 100%;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+
+.order__form {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	text-align: center;
+	background-color: #fff; /*C8C8C8*/
+}
+
+.order__flexItem {
+	flex-basis: 100%;
+}
+
+.order__input, .order__textarea {
+	width: 100%; /* Full width */
+	height: 46px;
+	padding: 12px; /* Some padding */
+	background-color: #fff;
+	border: 1px solid #a3a3a3; /* Gray border */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-bottom: 10px; /* Bottom margin */
+	resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	font-family: centGothicLigth;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #333333;
+	resize: none;
+}
+
+.order__input:focus,
+.order__textarea:focus,
+.order__input:focus-visible,
+.order__textarea:focus-visible {
+	border: 2px solid #2B2B2B; /* Gray border */
+	border-radius: 0;
+	outline: none;
+}
+
+
+.order__textarea {
+	height: 200px;
+}
+
+.order__submit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 46px;
+	margin-bottom: 10px;
+	background-color: #e4e4e4;
+	color: #2B2B2B;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	font-family: centGothicLigth;
+}
+
+.order__submit input {
+	font-size: 16px;
+	letter-spacing: 2px;
+	border: none;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.order__submit:hover {
+	background-color: #cccccc;
+}
+
+/*********** Viewports *******************/
+
+/*Desktop*/
+
+@media only screen and (min-width: 1300px) {
+
+	.order__cont {
+		max-width: 1700px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.order__form{
+		flex-wrap: nowrap;
+	}
+
+	.order__flexItem {
+		flex-basis: 50%;
+		max-width: 50%;
+		margin-right: 5px;
+	}
+
+	.order__flexItem--second {
+		flex-basis: 50%;
+		max-width: 50%;
+		margin-right: 0px;
+		margin-left: 5px;
+	}
+
+	.order__input, .order__textarea {
+		display: block;
+		width: 100%;
+		max-width: 600px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.order__textarea {
+		max-height: 326px;
+		height: 100%;
+		max-width: 1200px;
+	}
+}
+
+/*Desktop an tablet Landspace*/
+
+@media only screen and (min-width: 950px) and (max-width: 1299px) {
+
+	.order__cont {
+		max-width: 1200px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.order__form{
+		flex-wrap: nowrap;
+	}
+
+	.order__flexItem {
+		flex-basis: 50%;
+		max-width: 50%;
+		margin-right: 5px;
+	}
+
+	.order__flexItem--second {
+		margin-right: 0px;
+		margin-left: 5px;
+	}
+
+	.order__input, .order__textarea {
+		display: block;
+		width: 100%;
+		max-width: 600px;
+	}
+
+	.order__textarea {
+		max-height: 326px;
+		height: 100%;
+		max-width: 1200px;
+	}
+}
+
+
+@media only screen and (max-width: 450px) {
+    .order .modal__h {
+        font-size: 36px;
+    }
+}
