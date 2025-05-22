@@ -28,5 +28,7 @@ import { argPav } from './argPav';
 import { costaSalguero } from './costaSalguero';
 import { marqPav } from './marqPav';
 import { myjHouse } from './myjHouse';
+import { facultadDerecho } from './facultadDerecho';
+import { avBoedo } from './avBoedo';
 
-export const projectsData = [exPenJujuy, comRivPark, olymplicVill, plaFerCab, ambientalSur, losReartesBoul, footballMuseum, luroTerminal, lacarCoast, jockeyClub, centenPav, uccPolo, acindar, ferrocult, chanar, berazComplex, parqPatri, educBuilding, vlHouse, svHouse, prsBuilding, ldBuilding, alsinaBuilding, estacionEco, plaFerCol, argPav, costaSalguero, marqPav, myjHouse];
+export const projectsData = [exPenJujuy, comRivPark, olymplicVill, plaFerCab, facultadDerecho, ambientalSur, losReartesBoul, footballMuseum, luroTerminal, lacarCoast, jockeyClub, centenPav, uccPolo, acindar, avBoedo, ferrocult, chanar, berazComplex, parqPatri, educBuilding, vlHouse, svHouse, prsBuilding, ldBuilding, alsinaBuilding, estacionEco, plaFerCol, argPav, costaSalguero, marqPav, myjHouse];
