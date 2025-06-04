@@ -40,8 +40,6 @@ export const GlobalNav = () => {
 
     useOnLoad ( () => screenOut ( screen.current ) )
 
-    useOnTogglePhoto( () =>  togglePhotoNavHelper( navigator.current ) );
-
     return (
         <>
             {/* Screen */}

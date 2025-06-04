@@ -11,13 +11,14 @@ import { useOnOpenProject } from '../../../hooks/useOnOpenProject.js';
 import { useOnClosePhoto } from '../../../hooks/useOnEventsPhoto.js';
 import { useOnUrlString } from '../../../hooks/useOnUrlString.js';
 import { FirstRender } from '../../../contexts/FirstRender';
+import { usePhotoGallery } from '../../../contexts/PhotoGalleryContext';
 import './card.styles.css';
 
 export const ProjectCard = ( {title, subtitle, location, description, image, imagePosition, shared, gallery, urlString} ) => {
 
     const {firstRender, setFirstRender} = useContext(FirstRender);
 
-    console.log(firstRender)
+    const { setGalleryIsOpen, setGallery} = usePhotoGallery();
 
     const pj__box = useRef(null);
     const pj__fig = useRef(null);
@@ -35,8 +36,6 @@ export const ProjectCard = ( {title, subtitle, location, description, image, ima
     const [isOpen, setIsOpen] = useState(false);
 
     const [position, setPosition] = useState("");
-
-    const [galleryIsOpen, setGalleryIsOpen] = useState(false);
 
     useEffect(() => {
         project.current =
@@ -69,8 +68,6 @@ export const ProjectCard = ( {title, subtitle, location, description, image, ima
     useOnClosePhoto (() => setGalleryIsOpen(false) );
 
     useOnUrlString ( project, urlString, firstRender, setFirstRender );
-
-    /* console.log('I rendered!'); */
 
   return (
     <>
@@ -112,6 +109,7 @@ export const ProjectCard = ( {title, subtitle, location, description, image, ima
                     ref={pj__buttonPhoto}
                     onClick={ () => {
                         setGalleryIsOpen(true);
+                        setGallery(gallery);
                         onTogglePhoto();
                     }}
                 >
@@ -133,7 +131,6 @@ export const ProjectCard = ( {title, subtitle, location, description, image, ima
                 </div>
             </div>
         </article>
-        { galleryIsOpen ?  <PhotoGallery gallery={gallery} /> : <></>}
     </>
   )
 }

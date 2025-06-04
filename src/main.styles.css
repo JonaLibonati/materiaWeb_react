@@ -185,3 +185,7 @@ article.pj__box .padding0 {
 .nowrap {
 	white-space: nowrap;
 }
+
+.ph.bg-black {
+	background-color: black;
+}

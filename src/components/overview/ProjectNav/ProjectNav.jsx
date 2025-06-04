@@ -1,8 +1,10 @@
 import React, { useRef, useEffect } from 'react';
-import { useOnTogglePhoto } from '../../../hooks/useOnEventsPhoto';
+import { useProject } from '../../../contexts/ProjectContext';
 import './ProjectNav.style.css';
 
-export const ProjectNav = ({setFilters}) => {
+export const ProjectNav = () => {
+
+    const {handleSetFilters} = useProject();
 
     const pj__nav = useRef(null);
 
@@ -43,7 +45,7 @@ export const ProjectNav = ({setFilters}) => {
         pj__navItemClicked.classList.toggle('pj__navH3-onClick');
 
         if (filter == "todo") {
-            setFilters ([])
+            handleSetFilters ([])
             pj__navItem1.classList.add('pj__navH3-onClick')
             pj__navItem2.classList.remove('pj__navH3-onClick');
             pj__navItem3.classList.remove('pj__navH3-onClick');
@@ -51,35 +53,9 @@ export const ProjectNav = ({setFilters}) => {
             pj__navItem5.classList.remove('pj__navH3-onClick');
             pj__navItem6.classList.remove('pj__navH3-onClick');
         } else {
-
-            setFilters (
-                (filters) => {
-                    /* let newFilters = [];
-                    let exist = false;
-
-                    filters.map( (oldFilter) => {
-                        if (oldFilter != filter) newFilters.push(oldFilter);
-                        if (oldFilter == filter) exist = true;
-                    })
-
-                    if (!exist) newFilters.push(filter); 
-
-                    return newFilters;*/
-
-                    /* filters.map( (oldFilter) => {
-                        if (oldFilter == filter) exist = true;
-                    })
-
-                    if (exist) return []; */
-                    return [filter];
-                }
-            )
+            handleSetFilters ([filter]);
         }
     }
-
-    useOnTogglePhoto(() => {
-        pj__nav.current.classList.toggle("displayNone");
-    })
 
     return (
         <>

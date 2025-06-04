@@ -93,7 +93,8 @@
 .footer__ig,
 .footer__fb,
 .footer__wpp,
-.footer__mail {
+.footer__mail,
+.footer__yt {
 	position: relative;
 	flex-basis: 50px;
 	height: 25px;
@@ -105,7 +106,8 @@
 .footer__igIcon,
 .footer__fbIcon,
 .footer__wppIcon,
-.footer__mailIcon {
+.footer__mailIcon,
+.footer__ytIcon {
 	width: 100%;
 	height: 100%;
 }

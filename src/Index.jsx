@@ -10,6 +10,8 @@ import { GlobalFooter } from './components/global/GlobalFooter/GlobalFooter';
 import { FirstRender } from './contexts/FirstRender';
 import { BookSection } from "./components/overview/BookSection/BookSection";
 import { PopUpProvider } from './contexts/PopUpContext';
+import { PhotoGalleryProvider } from './contexts/PhotoGalleryContext';
+import { ProjectProvider } from './contexts/ProjectContext';
 
 
 export const Index = () => {
@@ -39,7 +41,11 @@ export const Index = () => {
                     <BookSection />
                     <AboutSection />
                     <PostSection />
-                    <ProjectSection />
+                    <ProjectProvider>
+                        <PhotoGalleryProvider>
+                            <ProjectSection />
+                        </PhotoGalleryProvider>
+                    </ProjectProvider>
                     <ContactSection />
                 </PopUpProvider>
             </main>

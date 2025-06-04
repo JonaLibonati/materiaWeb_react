@@ -119,7 +119,6 @@ export const scrolled = ( project ) => {
 	} */
 	//Set position atribute relative to screen to all elements.
 	setPositionAtribute ( project );
-	console.log(project.position)
 }
 
 //----Return y element center coordinate relative to the screen
@@ -180,12 +179,9 @@ export const openWhenOnScreen = ( project, setFirstRender ) => {
 
 	const { position } = project;
 
-    console.log(position);
     if (position == "outScreen") {
-		console.log("no")
         setTimeout(openWhenOnScreen, 100, project);
     } else {
-		console.log("yes")
         setTimeout(open, 800, project);
 		setTimeout(setFirstRender, 810, false);
         clearTimeout(openWhenOnScreen);
