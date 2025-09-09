@@ -28,6 +28,6 @@ export const marqPav = {
         text:"Conocé el proyecto Pabellon museo de arquitectura",
         url:"https://www.estudiomateria.com.ar/proyectos/pabMarq/index.html",
     },
-    filters: [],
+    filters: [""],
     urlString: 'marqPav',
 }

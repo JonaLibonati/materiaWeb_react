@@ -27,6 +27,6 @@ export const acindar = {
         text:"Conocé el proyecto Acindar",
         url:"https://www.estudiomateria.com.ar/proyectos/acindar/index.html",
     },
-    filters: [],
+    filters: [""],
     urlString: 'acindar',
 }

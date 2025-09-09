@@ -24,6 +24,6 @@ export const estacionEco = {
         text:"Conocé el proyecto Estacion ecologica",
         url:"https://www.estudiomateria.com.ar/proyectos/estacionEco/index.html",
     },
-    filters: [],
+    filters: [""],
     urlString: 'estacionEco',
 }

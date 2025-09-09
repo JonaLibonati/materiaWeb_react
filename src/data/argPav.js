@@ -30,6 +30,6 @@ export const argPav = {
         text:"Conocé el proyecto Pabellon argentino",
         url:"https://www.estudiomateria.com.ar/proyectos/pabArgentino/index.html",
     },
-    filters: [],
+    filters: [""],
     urlString: 'argPav',
 }
