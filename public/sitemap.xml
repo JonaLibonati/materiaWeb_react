@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.estudiomateria.com.ar/</loc>
+    <lastmod>2025-09-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.estudiomateria.com.ar/home-image-og.jpg</image:loc>
+      <image:caption>Imagen del proyecto icónico del Estudio de Arquitectura Materia de Edgardo Barone</image:caption>
+      <image:title>Hero Estudio de Arquitectura Materia de Edgardo Barone</image:title>
+  </image:image>
+  </url>
+
+</urlset>

@@ -32,5 +32,5 @@ export const olymplicVill = {
         url:"https://www.estudiomateria.com.ar/proyectos/villaOlimpica/index.html",
     },
     filters: ['vivienda'],
-    urlString: 'olymplicVill',
+    urlString: 'villaOlimpica',
 }

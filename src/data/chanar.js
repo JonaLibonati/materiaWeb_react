@@ -29,5 +29,5 @@ export const chanar = {
         url:"https://www.estudiomateria.com.ar/proyectos/parqueChanar/index.html",
     },
     filters: ['espPub'],
-    urlString: 'chanar',
+    urlString: 'parqueChanar',
 }

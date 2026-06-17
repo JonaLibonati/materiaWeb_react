@@ -32,5 +32,5 @@ export const comRivPark = {
         url: "https://www.estudiomateria.com.ar/proyectos/comRivadavia/index.html",
     },
     filters: ['espPub', 'inst', 'cultDep'],
-    urlString: 'comRivPark',
+    urlString: 'comRivadavia',
 }

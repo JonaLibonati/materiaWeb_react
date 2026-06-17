@@ -28,5 +28,5 @@ export const berazComplex = {
         url:"https://www.estudiomateria.com.ar/proyectos/compBeraza/index.html"
     },
     filters: ['inst', 'cultDep'],
-    urlString: 'berazComplex',
+    urlString: 'compBeraza',
 }

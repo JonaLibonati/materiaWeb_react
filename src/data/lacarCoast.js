@@ -36,5 +36,5 @@ export const lacarCoast = {
         url:"https://www.estudiomateria.com.ar/proyectos/costaLacar/index.html"
     },
     filters: ['espPub'],
-    urlString: 'lacarCoast',
+    urlString: 'costaLacar',
 }

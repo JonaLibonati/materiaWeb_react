@@ -14,7 +14,7 @@ import { uccPolo } from './uccPolo';
 import { acindar } from './acindar';
 import { ferrocult } from './ferrocult';
 import { chanar } from './chanar';
-import { berazComplex } from './berazcomplex';
+import { berazComplex } from './berazComplex';
 import { parqPatri } from './parqPatri';
 import { educBuilding } from './educBuilding';
 import { vlHouse } from './vlHouse';
@@ -30,5 +30,8 @@ import { marqPav } from './marqPav';
 import { myjHouse } from './myjHouse';
 import { facultadDerecho } from './facultadDerecho';
 import { avBoedo } from './avBoedo';
+import { brdBuilding } from './brdBuilding';
+import { bordeRibereno } from './bordeRibereno';
+import { peatonalFormosa } from './peatonalFormosa';
 
-export const projectsData = [exPenJujuy, comRivPark, olymplicVill, plaFerCab, facultadDerecho, ambientalSur, losReartesBoul, footballMuseum, luroTerminal, lacarCoast, jockeyClub, centenPav, uccPolo, acindar, avBoedo, ferrocult, chanar, berazComplex, parqPatri, educBuilding, vlHouse, svHouse, prsBuilding, ldBuilding, alsinaBuilding, estacionEco, plaFerCol, argPav, costaSalguero, marqPav, myjHouse];
+export const projectsData = [exPenJujuy, comRivPark, olymplicVill, plaFerCab, facultadDerecho, ambientalSur, losReartesBoul, footballMuseum, luroTerminal, lacarCoast, jockeyClub, centenPav, uccPolo, acindar, bordeRibereno, avBoedo, ferrocult, chanar, berazComplex, parqPatri, educBuilding, peatonalFormosa, vlHouse, svHouse, prsBuilding, ldBuilding, alsinaBuilding, estacionEco, plaFerCol, argPav, costaSalguero, marqPav, myjHouse, brdBuilding];

@@ -27,5 +27,5 @@ export const alsinaBuilding = {
         url:"https://www.estudiomateria.com.ar/proyectos/edificioAlsina/index.html",
     },
     filters: ['vivienda'],
-    urlString: 'alsinaBuilding',
+    urlString: 'edificioAlsina',
 }

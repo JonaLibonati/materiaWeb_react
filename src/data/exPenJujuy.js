@@ -31,5 +31,5 @@ export const exPenJujuy = {
         url: "https://www.estudiomateria.com.ar/proyectos/penJujuy/index.html",
     },
     filters: ['urb', 'espPub'],
-    urlString: 'exPenJujuy',
+    urlString: 'penJujuy',
 }

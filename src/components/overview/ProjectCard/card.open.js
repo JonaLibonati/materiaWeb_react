@@ -179,11 +179,13 @@ export const openWhenOnScreen = ( project, setFirstRender ) => {
 
 	const { position } = project;
 
+	console.log(project)
+
     if (position == "outScreen") {
         setTimeout(openWhenOnScreen, 100, project);
     } else {
-        setTimeout(open, 800, project);
-		setTimeout(setFirstRender, 810, false);
+        setTimeout(open, 1000, project);
+		setTimeout(setFirstRender, 1010, false);
         clearTimeout(openWhenOnScreen);
     }
 }

@@ -28,5 +28,5 @@ export const luroTerminal = {
         url:"https://www.estudiomateria.com.ar/proyectos/terminalLuro/index.html"
     },
     filters: ['inst'],
-    urlString: 'luroTerminal',
+    urlString: 'terminalLuro',
 }

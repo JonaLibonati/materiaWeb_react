@@ -29,5 +29,5 @@ export const marqPav = {
         url:"https://www.estudiomateria.com.ar/proyectos/pabMarq/index.html",
     },
     filters: [""],
-    urlString: 'marqPav',
+    urlString: 'pabMarq',
 }

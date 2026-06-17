@@ -45,6 +45,7 @@
   cursor: pointer;
   color: #333333;
   display: flex;
+  text-decoration: none;
 
   align-items: center;
   white-space: nowrap;

@@ -35,5 +35,5 @@ export const plaFerCol = {
         url:"https://www.estudiomateria.com.ar/proyectos/playaFerColegiales/index.html",
     },
     filters: ['urb'],
-    urlString: 'plaFerCol',
+    urlString: 'playaFerColegiales',
 }

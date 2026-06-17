@@ -26,5 +26,5 @@ export const ldBuilding = {
         url:"https://www.estudiomateria.com.ar/proyectos/edificioLD/index.html",
     },
     filters: ['vivienda'],
-    urlString: 'ldBuilding',
+    urlString: 'edificioLD',
 }

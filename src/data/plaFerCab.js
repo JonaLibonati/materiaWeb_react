@@ -29,5 +29,5 @@ export const plaFerCab = {
         url:"https://www.estudiomateria.com.ar/proyectos/playaFerCaballito/index.html",
     },
     filters: ['urb'],
-    urlString: 'plaFerCab',
+    urlString: 'playaFerCaballito',
 }

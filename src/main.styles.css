@@ -1,11 +1,11 @@
 @font-face{
 	font-family: "centGothicBold";
-	src: url("./assets/fonts/centGothicBold.otf") format("truetype");
+	src: url("/fonts/centGothicBold.otf") format("truetype");
 }
 
 @font-face{
 	font-family: "centGothicLigth";
-	src: url("./assets/fonts/centGothicLight.otf") format("truetype");
+	src: url("/fonts/centGothicLight.otf") format("truetype");
 }
 
 html {

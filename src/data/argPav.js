@@ -31,5 +31,5 @@ export const argPav = {
         url:"https://www.estudiomateria.com.ar/proyectos/pabArgentino/index.html",
     },
     filters: [""],
-    urlString: 'argPav',
+    urlString: 'pabArgentino',
 }

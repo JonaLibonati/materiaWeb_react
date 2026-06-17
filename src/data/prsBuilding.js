@@ -24,5 +24,5 @@ export const prsBuilding = {
         url:"https://www.estudiomateria.com.ar/proyectos/edificioPRS/index.html",
     },
     filters: ['vivienda'],
-    urlString: 'prsBuilding',
+    urlString: 'edificioPRS',
 }

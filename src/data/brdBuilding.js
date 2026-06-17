@@ -26,5 +26,5 @@ export const brdBuilding = {
         url:"https://www.estudiomateria.com.ar/proyectos/edificioBRD/index.html",
     },
     filters: ['vivienda'],
-    urlString: 'brdBuilding',
+    urlString: 'edificioBRD',
 }

@@ -32,5 +32,5 @@ export const footballMuseum = {
         url:"https://www.estudiomateria.com.ar/proyectos/museoFutbol/index.html",
     },
     filters: ['espPub', 'inst', 'cultDep'],
-    urlString: 'footballMuseum',
+    urlString: 'museoFutbol',
 }

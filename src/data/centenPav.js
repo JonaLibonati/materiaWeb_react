@@ -28,5 +28,5 @@ export const centenPav = {
         url:"https://www.estudiomateria.com.ar/proyectos/pabCentenario/index.html",
     },
     filters: ['urb'],
-    urlString: 'centenPav',
+    urlString: 'pabCentenario',
 }

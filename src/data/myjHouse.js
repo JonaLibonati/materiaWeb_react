@@ -26,5 +26,5 @@ export const myjHouse = {
         url:"https://www.estudiomateria.com.ar/proyectos/casaMYJ/index.html",
     },
     filters: ['vivienda'],
-    urlString: 'myjHouse',
+    urlString: 'casaMYJ',
 }

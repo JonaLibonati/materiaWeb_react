@@ -1,0 +1,107 @@
+# Activa el motor de reescritura
+RewriteEngine On  
+
+# Redirige /proyectos/* a la home
+RewriteRule ^proyectos/?$ https://www.estudiomateria.com.ar/#pj [R=301,L]
+
+RewriteRule ^proyectos/acindar/?$ https://www.estudiomateria.com.ar/?acindar&false [R=301,L]
+RewriteRule ^proyectos/acindar/index.html https://www.estudiomateria.com.ar/?acindar&false [R=301,L]
+
+RewriteRule ^proyectos/ambientalSur/?$ https://www.estudiomateria.com.ar/?ambientalSur&false [R=301,L]
+RewriteRule ^proyectos/ambientalSur/index.html?$ https://www.estudiomateria.com.ar/?ambientalSur&false [R=301,L]
+
+RewriteRule ^proyectos/avBoedo/?$ https://www.estudiomateria.com.ar/?avBoedo&false [R=301,L]
+RewriteRule ^proyectos/avBoedo/index.html?$ https://www.estudiomateria.com.ar/?avBoedo&false [R=301,L]
+
+RewriteRule ^proyectos/bordeRibereno/?$ https://www.estudiomateria.com.ar/?bordeRibereno&false [R=301,L]
+RewriteRule ^proyectos/bordeRibereno/index.html?$ https://www.estudiomateria.com.ar/?bordeRibereno&false [R=301,L]
+
+RewriteRule ^proyectos/casaMYJ/?$ https://www.estudiomateria.com.ar/?casaMYJ&false [R=301,L]
+RewriteRule ^proyectos/casaMYJ/index.html?$ https://www.estudiomateria.com.ar/?casaMYJ&false [R=301,L]
+
+RewriteRule ^proyectos/casaSV/?$ https://www.estudiomateria.com.ar/?casaSV&false [R=301,L]
+RewriteRule ^proyectos/casaSV/index.html?$ https://www.estudiomateria.com.ar/?casaSV&false [R=301,L]
+
+RewriteRule ^proyectos/casaVL/?$ https://www.estudiomateria.com.ar/?casaVL&false [R=301,L]
+RewriteRule ^proyectos/casaVL/index.html?$ https://www.estudiomateria.com.ar/?casaVL&false [R=301,L]
+
+RewriteRule ^proyectos/compBeraza/?$ https://www.estudiomateria.com.ar/?compBeraza&false [R=301,L]
+RewriteRule ^proyectos/compBeraza/index.html?$ https://www.estudiomateria.com.ar/?compBeraza&false [R=301,L]
+
+RewriteRule ^proyectos/comRivadavia/?$ https://www.estudiomateria.com.ar/?comRivadavia&false [R=301,L]
+RewriteRule ^proyectos/comRivadavia/index.html?$ https://www.estudiomateria.com.ar/?comRivadavia&false [R=301,L]
+
+RewriteRule ^proyectos/costaLacar/?$ https://www.estudiomateria.com.ar/?costaLacar&false [R=301,L]
+RewriteRule ^proyectos/costaLacar/index.html?$ https://www.estudiomateria.com.ar/?costaLacar&false [R=301,L]
+
+RewriteRule ^proyectos/costaSalguero/?$ https://www.estudiomateria.com.ar/?costaSalguero&false [R=301,L]
+RewriteRule ^proyectos/costaSalguero/index.html?$ https://www.estudiomateria.com.ar/?costaSalguero&false [R=301,L]
+
+RewriteRule ^proyectos/edificioAlsina/?$ https://www.estudiomateria.com.ar/?edificioAlsina&false [R=301,L]
+RewriteRule ^proyectos/edificioAlsina/index.html?$ https://www.estudiomateria.com.ar/?edificioAlsina&false [R=301,L]
+
+RewriteRule ^proyectos/edificioBRD/?$ https://www.estudiomateria.com.ar/?edificioBRD&false [R=301,L]
+RewriteRule ^proyectos/edificioBRD/index.html?$ https://www.estudiomateria.com.ar/?edificioBRD&false [R=301,L]
+
+RewriteRule ^proyectos/edificioEducativo/?$ https://www.estudiomateria.com.ar/?edificioEducativo&false [R=301,L]
+RewriteRule ^proyectos/edificioEducativo/index.html?$ https://www.estudiomateria.com.ar/?edificioEducativo&false [R=301,L]
+
+RewriteRule ^proyectos/edificioLD/?$ https://www.estudiomateria.com.ar/?edificioLD&false [R=301,L]
+RewriteRule ^proyectos/edificioLD/index.html?$ https://www.estudiomateria.com.ar/?edificioLD&false [R=301,L]
+
+RewriteRule ^proyectos/edificioPRS/?$ https://www.estudiomateria.com.ar/?edificioPRS&false [R=301,L]
+RewriteRule ^proyectos/edificioPRS/index.html?$ https://www.estudiomateria.com.ar/?edificioPRS&false [R=301,L]
+
+RewriteRule ^proyectos/estacionEco/?$ https://www.estudiomateria.com.ar/?estacionEco&false [R=301,L]
+RewriteRule ^proyectos/estacionEco/index.html?$ https://www.estudiomateria.com.ar/?estacionEco&false [R=301,L]
+
+RewriteRule ^proyectos/facultadDerecho/?$ https://www.estudiomateria.com.ar/?facultadDerecho&false [R=301,L]
+RewriteRule ^proyectos/facultadDerecho/index.html?$ https://www.estudiomateria.com.ar/?facultadDerecho&false [R=301,L]
+
+RewriteRule ^proyectos/jockeyClub/?$ https://www.estudiomateria.com.ar/?jockeyClub&false [R=301,L]
+RewriteRule ^proyectos/jockeyClub/index.html?$ https://www.estudiomateria.com.ar/?jockeyClub&false [R=301,L]
+
+RewriteRule ^proyectos/losReartesBoul/?$ https://www.estudiomateria.com.ar/?losReartesBoul&false [R=301,L]
+RewriteRule ^proyectos/losReartesBoul/index.html?$ https://www.estudiomateria.com.ar/?losReartesBoul&false [R=301,L]
+
+RewriteRule ^proyectos/museoFutbol/?$ https://www.estudiomateria.com.ar/?museoFutbol&false [R=301,L]
+RewriteRule ^proyectos/museoFutbol/index.html?$ https://www.estudiomateria.com.ar/?museoFutbol&false [R=301,L]
+
+RewriteRule ^proyectos/pabArgentino/?$ https://www.estudiomateria.com.ar/?pabArgentino&false [R=301,L]
+RewriteRule ^proyectos/pabArgentino/index.html?$ https://www.estudiomateria.com.ar/?pabArgentino&false [R=301,L]
+
+RewriteRule ^proyectos/pabCentenario/?$ https://www.estudiomateria.com.ar/?pabCentenario&false [R=301,L]
+RewriteRule ^proyectos/pabCentenario/index.html?$ https://www.estudiomateria.com.ar/?pabCentenario&false [R=301,L]
+
+RewriteRule ^proyectos/pabMarq/?$ https://www.estudiomateria.com.ar/?pabMarq&false [R=301,L]
+RewriteRule ^proyectos/pabMarq/index.html?$ https://www.estudiomateria.com.ar/?pabMarq&false [R=301,L]
+
+RewriteRule ^proyectos/parqueChanar/?$ https://www.estudiomateria.com.ar/?parqueChanar&false [R=301,L]
+RewriteRule ^proyectos/parqueChanar/index.html?$ https://www.estudiomateria.com.ar/?parqueChanar&false [R=301,L]
+
+RewriteRule ^proyectos/parquePatricios/?$ https://www.estudiomateria.com.ar/?parquePatricios&false [R=301,L]
+RewriteRule ^proyectos/parquePatricios/index.html?$ https://www.estudiomateria.com.ar/?parquePatricios&false [R=301,L]
+
+RewriteRule ^proyectos/penJujuy/?$ https://www.estudiomateria.com.ar/?penJujuy&false [R=301,L]
+RewriteRule ^proyectos/penJujuy/index.html?$ https://www.estudiomateria.com.ar/?penJujuy&false [R=301,L]
+
+RewriteRule ^proyectos/playaFerCaballito/?$ https://www.estudiomateria.com.ar/?playaFerCaballito&false [R=301,L]
+RewriteRule ^proyectos/playaFerCaballito/index.html?$ https://www.estudiomateria.com.ar/?playaFerCaballito&false [R=301,L]
+
+RewriteRule ^proyectos/playaFerColegiales/?$ https://www.estudiomateria.com.ar/?playaFerColegiales&false [R=301,L]
+RewriteRule ^proyectos/playaFerColegiales/index.html?$ https://www.estudiomateria.com.ar/?playaFerColegiales&false [R=301,L]
+
+RewriteRule ^proyectos/poloFerrocultural/?$ https://www.estudiomateria.com.ar/?poloFerrocultural&false [R=301,L]
+RewriteRule ^proyectos/poloFerrocultural/index.html?$ https://www.estudiomateria.com.ar/?poloFerrocultural&false [R=301,L]
+
+RewriteRule ^proyectos/terminalLuro/?$ https://www.estudiomateria.com.ar/?terminalLuro&false [R=301,L]
+RewriteRule ^proyectos/terminalLuro/index.html?$ https://www.estudiomateria.com.ar/?terminalLuro&false [R=301,L]
+
+RewriteRule ^proyectos/uccPolo/?$ https://www.estudiomateria.com.ar/?uccPolo&false [R=301,L]
+RewriteRule ^proyectos/uccPolo/index.html?$ https://www.estudiomateria.com.ar/?uccPolo&false [R=301,L]
+
+RewriteRule ^proyectos/villaOlimpica/?$ https://www.estudiomateria.com.ar/?villaOlimpica&false [R=301,L]
+RewriteRule ^proyectos/villaOlimpica/index.html?$ https://www.estudiomateria.com.ar/?villaOlimpica&false [R=301,L]
+
+RewriteRule ^proyectos/peatonalFormosa/?$ https://www.estudiomateria.com.ar/?peatonalFormosa&false [R=301,L]
+RewriteRule ^proyectos/peatonalFormosa/index.html?$ https://www.estudiomateria.com.ar/?peatonalFormosa&false [R=301,L]

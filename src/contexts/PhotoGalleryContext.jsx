@@ -143,9 +143,6 @@ export const PhotoGalleryProvider = ({ children }) => {
           case "ArrowRight":
               nextPhoto();
               break;
-          case "ArrowRight":
-              nextPhoto();
-              break;
           case "Escape":
               closePhoto();
               break;

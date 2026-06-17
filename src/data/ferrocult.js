@@ -32,5 +32,5 @@ export const ferrocult = {
         url:"https://www.estudiomateria.com.ar/proyectos/poloFerrocultural/index.html"
     },
     filters: ['espPub', 'inst', 'cultDep'],
-    urlString: 'ferrocult',
+    urlString: 'poloFerrocultural',
 }

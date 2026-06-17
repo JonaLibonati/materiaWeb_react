@@ -36,5 +36,5 @@ export const vlHouse = {
         url:"https://www.estudiomateria.com.ar/proyectos/casaVL/index.html",
     },
     filters: ['vivienda'],
-    urlString: 'vlHouse',
+    urlString: 'casaVL',
 }

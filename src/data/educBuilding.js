@@ -27,5 +27,5 @@ export const educBuilding = {
         url:"https://www.estudiomateria.com.ar/proyectos/edificioEducativo/index.html",
     },
     filters: ['inst'],
-    urlString: 'educBuilding',
+    urlString: 'edificioEducativo',
 }

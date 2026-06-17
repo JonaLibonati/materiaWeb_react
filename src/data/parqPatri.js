@@ -22,5 +22,5 @@ export const parqPatri = {
         url:"https://www.estudiomateria.com.ar/proyectos/parquePatricios/index.html",
     },
     filters: ['espPub'],
-    urlString: 'parqPatri',
+    urlString: 'parquePatricios',
 }
