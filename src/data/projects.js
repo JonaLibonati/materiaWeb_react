@@ -33,5 +33,7 @@ import { avBoedo } from './avBoedo';
 import { brdBuilding } from './brdBuilding';
 import { bordeRibereno } from './bordeRibereno';
 import { peatonalFormosa } from './peatonalFormosa';
+import { accesoLujan } from './accesoLujan';
 
-export const projectsData = [exPenJujuy, comRivPark, olymplicVill, plaFerCab, facultadDerecho, ambientalSur, losReartesBoul, footballMuseum, luroTerminal, lacarCoast, jockeyClub, centenPav, uccPolo, acindar, bordeRibereno, avBoedo, ferrocult, chanar, berazComplex, parqPatri, educBuilding, peatonalFormosa, vlHouse, svHouse, prsBuilding, ldBuilding, alsinaBuilding, estacionEco, plaFerCol, argPav, costaSalguero, marqPav, myjHouse, brdBuilding];
+
+export const projectsData = [exPenJujuy, comRivPark, olymplicVill, plaFerCab, accesoLujan, facultadDerecho, ambientalSur, losReartesBoul, footballMuseum, luroTerminal, lacarCoast, jockeyClub, centenPav, uccPolo, acindar, bordeRibereno, avBoedo, ferrocult, chanar, berazComplex, parqPatri, educBuilding, peatonalFormosa, vlHouse, svHouse, prsBuilding, ldBuilding, alsinaBuilding, estacionEco, plaFerCol, argPav, costaSalguero, marqPav, myjHouse, brdBuilding];

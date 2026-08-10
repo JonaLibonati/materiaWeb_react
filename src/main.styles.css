@@ -182,6 +182,10 @@ article.pj__box .padding0 {
 	object-position: right;
 }
 
+.pj__img.object-position-accesoLujan {
+	object-position: -30px 50%;
+}
+
 .nowrap {
 	white-space: nowrap;
 }
