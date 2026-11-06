@@ -15,7 +15,7 @@ export const accesoLujan = {
     title: 'PUESTA EN VALOR ACCESO A LUJAN',
     subtitle: 'CONCURSO NACIONAL - 2DO PREMIO',
     location: 'Luján, Provincia de Buenos Aires, 2026',
-    description: 'La estrategia espacial se basa en la creación de un pórtico simple y austero que se constituye como marco principal de este proyecto. Esta solución permite una relación fluida entre el entorno y los espacios de circulación interna. Se resuelve con claridad la organización de flujos, fundamental en una estación de transbordo.',
+    description: 'La propuesta transforma el acceso a Luján en un corredor urbano cultural, religioso y paisajístico, donde movilidad, patrimonio y espacio público se integran hacia la Basílica. El proyecto plantea una estrategia de reconexión territorial que vincula espacios verdes, equipamientos y sectores urbanos, convirtiendo la avenida en un paseo de encuentro.',
     image: image00,
     imagePosition: 'accesoLujan',
     gallery: [image01, image02, image03, image04, image05, image06, image07, image08],

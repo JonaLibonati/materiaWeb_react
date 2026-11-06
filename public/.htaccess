@@ -105,3 +105,6 @@ RewriteRule ^proyectos/villaOlimpica/index.html?$ https://www.estudiomateria.com
 
 RewriteRule ^proyectos/peatonalFormosa/?$ https://www.estudiomateria.com.ar/?peatonalFormosa&false [R=301,L]
 RewriteRule ^proyectos/peatonalFormosa/index.html?$ https://www.estudiomateria.com.ar/?peatonalFormosa&false [R=301,L]
+
+RewriteRule ^proyectos/accesoLujan/?$ https://www.estudiomateria.com.ar/?accesoLujan&false [R=301,L]
+RewriteRule ^proyectos/accesoLujan/index.html?$ https://www.estudiomateria.com.ar/?accesoLujan&false [R=301,L]
