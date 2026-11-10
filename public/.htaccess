@@ -108,3 +108,9 @@ RewriteRule ^proyectos/peatonalFormosa/index.html?$ https://www.estudiomateria.c
 
 RewriteRule ^proyectos/accesoLujan/?$ https://www.estudiomateria.com.ar/?accesoLujan&false [R=301,L]
 RewriteRule ^proyectos/accesoLujan/index.html?$ https://www.estudiomateria.com.ar/?accesoLujan&false [R=301,L]
+
+RewriteRule ^proyectos/paradorBañadoLaEstrella/?$ https://www.estudiomateria.com.ar/?paradorBañadoLaEstrella&false [R=301,L]
+RewriteRule ^proyectos/paradorBañadoLaEstrella/index.html?$ https://www.estudiomateria.com.ar/?paradorBañadoLaEstrella&false [R=301,L]
+
+RewriteRule ^proyectos/exTerminalJujuy/?$ https://www.estudiomateria.com.ar/?exTerminalJujuy&false [R=301,L]
+RewriteRule ^proyectos/exTerminalJujuy/index.html?$ https://www.estudiomateria.com.ar/?exTerminalJujuy&false [R=301,L]
